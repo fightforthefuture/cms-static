@@ -1,0 +1,61 @@
+.block {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+body {
+	background: url({{ STATIC_URL }}campaign/img/sns.body_background.png) repeat-x top #0f1316;
+}
+
+.intro {
+	margin-top: -25px;
+	background: url({{ STATIC_URL }}campaign/img/sns.hal.png) no-repeat center top;
+	min-height: 350px;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 0;
+}
+
+.intro header {margin-left: -10px; margin-top: 20px;}
+
+.intro h2 p a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	display: block;
+}
+
+.intro h2 p a:hover {text-decoration: underline;}
+
+body .intro h2 p {
+	font-size: 34px;
+	font-weight: 700;
+	color: #2da763;
+}
+
+.intro .group .container {
+	padding-top: 240px;
+	width: 820px;
+	text-align: center;
+}
+
+.intro .group .container .text h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 32px;
+	line-height: 1.3;
+}
+
+
+.action h1 {display: none; box-shadow: none; -webkit-box-shadow: none;}
+
+.actions {background-image: none; border: none; border-top: none; background: none; box-shadow: none; -webkit-box-shadow: none;}
+.actions .container {border: none; background: none; box-shadow: none; -webkit-box-shadow: none;}
+
+#salsa-email .btn {background: #2da763;}
+
+@media screen and (max-width: 767px) {
+.intro .group .container {width: 100%; padding: 0; margin: 0 auto;}
+.intro .group .container {width: 90%;}
+.intro .group .container .text h2 {font-size: 20px;}
+}

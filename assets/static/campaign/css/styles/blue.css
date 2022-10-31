@@ -1,0 +1,156 @@
+body {
+    border-top: 8px solid #ff6b1b;
+    background-color: #feffff;
+}
+
+.navbar a.brand{
+    background-image: url(../../img/crlogo2.png);
+}
+
+.block {
+    border-bottom: 1px solid #ededed;
+}
+
+.block h1 {
+    font-family: 'Domine';
+    border-bottom: 2px solid #ebf2f6;
+    padding-bottom: 15px;
+    -moz-box-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+    color: #253543;
+}
+
+.block p {
+    font-family: 'Titillium Web';
+    font-size: 17px;
+    line-height: 24px;
+    color: #606d78;
+}
+
+.block.has-image figure img {
+    background-color: transparent;
+    border: none;
+}
+
+.block.has-image figure.bordered img {
+    border: none;
+    background-color: transparent;
+}
+
+.block.has-image figure.bordered {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.actions {
+    background: #333 url(../../img/bluu.jpg);
+    background-position: center;
+}
+
+.actions:before {
+    background: none;
+    top: 0;
+}
+
+.actions .container {
+    background: none;
+    box-shadow: none;
+    background: none;
+    border: none;
+}
+
+.action h1 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Carme';
+}
+
+.action p {
+    color: #a5b9cb;
+    font-size: 13px;
+}
+
+.action#salsa-email form {
+    max-width: 1000px;
+    padding-left: 2%;
+}
+
+.action#salsa-email #field_email {
+    width: 80%;
+}
+
+.action#salsa-email .buttons {
+    width: 10%;
+}
+
+.intro h1 {
+    font-size: 60px;
+    color: #253543;
+    margin-bottom: 20px;
+    font-family: 'Rufina';
+    margin-top: 10px;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+}
+
+.intro h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Titillium Web';
+}
+
+.intro .block h1 {
+    border-bottom: 1px solid #ededed;
+}
+
+.action .modal h1 {
+    color: #000;
+}
+
+.action .modal p {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
+
+#salsa-email .btn {
+    font-weight: 700;
+    background-color: #2b96f1;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 0.25);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 0.25);
+    border: solid 1px #2473b0;
+    border-bottom: 1px solid #20608f;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2a99ef), color-stop(1, #237bbd));
+    background: -webkit-linear-gradient(top, #2a99ef 0%, #237bbd 100%);
+    background: -moz-linear-gradient(top, #2a99ef 0%, #237bbd 100%);
+    background: -o-linear-gradient(top, #2a99ef 0%, #237bbd 100%);
+    background: -ms-linear-gradient(top, #2a99ef 0%, #237bbd 100%);
+    background: linear-gradient(top, #2a99ef 0%, #237bbd 100%);
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#salsa-email input:focus {
+    border-color: #58b6ff;
+    -webkit-box-shadow: 0px 0px 25px rgba(39, 141, 220, 1);
+    -moz-box-shadow: 0px 0px 25px rgba(39, 141, 220, 1);
+    box-shadow: 0px 0px 25px rgba(39, 141, 220, 1);
+}
+
+#salsa-email input {
+    color: #186bb4;
+    font-weight: 900;
+}
+
+.block.intro{
+	background-color: red;
+}

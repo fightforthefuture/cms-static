@@ -1,0 +1,157 @@
+a.thumbibutton {
+display: inline-block;
+padding: 4px 12px;
+margin-bottom: 0;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+color: #fff;
+text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #5bb75b;
+background-image: -moz-linear-gradient(top,#62c462,#51a351);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#51a351));
+background-image: -webkit-linear-gradient(top,#62c462,#51a351);
+background-image: -o-linear-gradient(top,#62c462,#51a351);
+background-image: linear-gradient(to bottom,#62c462,#51a351);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462',endColorstr='#ff51a351',GradientType=0);
+border-color: #51a351 #51a351 #387038;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+border: 1px solid #bbb;
+border-bottom-color: #a2a2a2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);
+text-align: center;
+margin-left: 23px;
+text-decoration: none;
+}
+
+.thumbi{
+	width: 200px;
+	float: left;
+	margin-right: 90px;
+	margin-left: 90px;
+}
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.thumbi{
+	margin-right: 5px;
+	margin-left: 90px;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+.thumbi{
+	margin-right: 5px;
+	margin-left: 90px;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+.thumbi{
+	margin-right: 5px;
+	margin-left: 90px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+.thumbi{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+.thumbi{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+.thumbi{
+	margin-right: 80px;
+	margin-left: 80px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+.thumbi{
+	margin-right: 90px;
+	margin-left: 90px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+.thumbi{
+	margin-right: 90px;
+	margin-left: 90px;
+}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+.thumbi{
+	margin-right: 90px;
+	margin-left: 90px;
+}/
+}
+
+
+.block.intro{
+	
+	padding-bottom: 0;
+}
+
+.intro .block{
+	padding-top: 0;
+	padding-bottom: 30px;
+	
+}
+
+
+@media (max-width: 979px) {
+	.thumbi {padding: 0; margin: 0; padding-left: 6%; padding-right: 6%;}
+	.thumbi, .thumbi img {width: 130px;}
+	a.thumbibutton {font-size: 12px; width: 100%; margin-left: 0; padding: 0; padding-top: 4px; padding-bottom: 4px;}
+}
+
+@media (max-width: 700px) {
+	.thumbi {padding-left: 2%; padding-right: 2%; margin-top: 20px;}
+	.thumbi{width: 28%;}
+	 .thumbi img  {width: 100%;}
+	a.thumbibutton, .thumbi {display: none;}
+}

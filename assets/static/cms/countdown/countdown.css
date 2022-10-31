@@ -1,0 +1,17 @@
+.countdown-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.countdown-count{
+    position: absolute;
+    /*bottom: 12px;
+    right: 12px;*/
+    bottom: 2px;
+    right: -40px;
+    font-size: 18px;
+    color: #333333;
+}
+.countdown-close{
+    font-weight: bold;
+    color: #8a0000;
+}

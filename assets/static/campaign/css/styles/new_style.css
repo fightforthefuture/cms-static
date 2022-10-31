@@ -1,0 +1,116 @@
+body{
+    border-top: 8px solid #5ebd5e;
+    background-color: #fafafa;
+}
+
+.navbar a.brand{
+    background-image: url(../../img/crlogo2.png);
+}
+
+.block{
+    border-bottom: 1px solid #ededed;
+}
+
+.block h1{
+    font-family: 'Domine';
+    border-bottom: 1px solid #f4f4f4;
+    border-width:10px;
+    padding-bottom: 15px;
+    -moz-box-shadow:
+        0px 2px 0px rgba(255,255,255,1);
+    -webkit-box-shadow:
+        0px 2px 0px rgba(255,255,255,1);
+    box-shadow:
+        0px 2px 0px rgba(255,255,255,1);
+}
+
+.block p{
+
+    font-family: 'Titillium Web';
+    font-size: 17px;
+    line-height:24px;
+    color: #808080;
+}
+
+.block.has-image figure img{
+    background-color: transparent;
+    border: none;
+}
+.block.has-image figure.bordered img{
+    border: none;
+    background-color: transparent;
+}
+
+.block.has-image figure.bordered{
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.actions{
+    border-top: 0;
+    background: #333 url(../../img/bl.jpg);
+    background-position: center;
+}
+
+.actions .container{
+    background: none;
+    box-shadow:none;
+    background: none;
+    border: none;
+
+}
+
+.action h1{
+    font-size: 22px;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Titillium Web';
+}
+
+.action p{
+    color: #fff;
+    font-size: 13px;
+}
+
+.action#salsa-email form{
+    max-width: 1000px;
+    padding-left: 2%;
+}
+.action#salsa-email #field_email{
+    width: 80%;
+}
+
+.action#salsa-email .buttons{
+    width: 10%;
+}
+
+.intro h1{
+    font-family: 'Domine';
+    margin-top: 10px;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.intro h2{
+    font-size: 22px;
+    font-weight: normal;
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Titillium Web';
+}
+
+.intro .block h1{
+    border-bottom: 1px solid #ededed;
+}
+
+.action .modal h1 {
+    color: #000;
+}
+
+.action .modal p {
+    color: #000;
+    font-size: 14px;
+}

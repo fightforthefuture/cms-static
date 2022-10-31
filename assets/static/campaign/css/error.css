@@ -1,0 +1,45 @@
+body {
+    background-color: #e5f0f4;
+}
+
+#errorcontainer {
+    width: 665px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-image: url("{{ STATIC_URL }}campaign/img/404.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#errorcontainertwo {
+    width: 665px;
+    height: 600px;
+    margin: auto;
+    background-image: url("{{ STATIC_URL }}campaign/img/500.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.errormidbox {
+    float: left;
+    width: 665px;
+    height: 133px;
+    background-image: url("{{ STATIC_URL }}campaign/img/box4.png");
+    background-position: center;
+    margin-top: 310px;
+}
+
+.errormidbox p {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 45px;
+}
+
+#logos {
+    width: 665px;
+    height: 70px;
+    padding-left: 130px;
+    float: left;
+    margin-top: 80px;
+}

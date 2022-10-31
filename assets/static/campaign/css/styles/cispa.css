@@ -1,0 +1,97 @@
+
+.navbar a.brand{
+    background-image: url(../../img/crlogo2.png);
+}
+
+
+.block.has-image figure.bordered img {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+    border: 5px solid #e5e5e5;
+}
+
+.block.has-image figure.bordered {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.block.has-image .text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.actions {
+    background: #333 url(../../img/wood.jpg);
+    background-position: center;
+}
+
+.actions .container {
+    border-top: 8px solid #e27319;
+    border-bottom: 10px solid #383838;
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.action h1 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.action p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.action#salsa-email form {
+    padding-left: 4%;
+}
+
+.action#salsa-congress .letter {
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+    box-shadow: 0px 3px 5px #000;
+    border: 1px solid #000;
+}
+
+.intro h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 23px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.action .modal h1 {
+    color: #000
+}
+
+.action .modal p {
+    color: #000;
+    font-size: 14px;
+}
+
+#salsa-email .btn {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+#salsa-email input:focus {
+    border-color: #5ebd5e;
+    -webkit-box-shadow: 0px 0px 13px rgba(94, 199, 41, 0.75);
+    -moz-box-shadow: 0px 0px 13px rgba(94, 199, 41, 0.75);
+    box-shadow: 0px 0px 13px rgba(94, 199, 41, 0.75);
+}
+
+#salsa-email input {
+    color: #000;
+}

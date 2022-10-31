@@ -1,0 +1,91 @@
+/* Dark background */
+body {
+    background: #2e2e2e;
+}
+
+/* Darker-themed header */
+.navbar-inner {
+    background: #4a4a4a;
+    border-color: #333;
+}
+
+.navbar-inner .share .facebook a,
+.navbar-inner .share .twitter a,
+.navbar-inner .share .tumblr a,
+.navbar-inner .share .reddit a,
+.navbar-inner .share .google-plus a {
+    background-color: #2b2b2b !important;
+}
+
+.navbar-inner a.brand {
+    background-image: url(../../img/logo-white.png );
+}
+
+/* Dashed rules */
+.block {
+    border-bottom: 1px dashed #464646;
+}
+
+/* Darker-themed footer */
+footer.block p {
+    color: #AAA;
+}
+
+footer.block p a {
+    color: #CCC;
+}
+
+/* Typographic adjutments */
+body {
+    color: #FFF;
+    font-family: 'Vollkorn', serif;
+}
+
+.block h1,
+.intro .block h1 {
+    color: #FFF;
+    font-size: 27px;
+    line-height: 1.15;
+    font-weight: normal;
+}
+
+.intro h1 {
+    color: #eac009;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.27;
+}
+
+.intro h2 {
+    color: #d3d3d3;
+    font-style: italic;
+    font-size: 31px;
+    line-height: 1.49;
+}
+
+.actions,
+.modal-body h1 {
+    color: #222;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+input[type="submit"],
+.uneditable-input,
+button,
+a.btn {
+    font-family: 'Vollkorn', serif;
+}

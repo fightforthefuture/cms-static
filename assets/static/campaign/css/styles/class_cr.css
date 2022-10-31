@@ -1,0 +1,535 @@
+.navbar a.brand {
+    background-image: url(../../img/crlogo2.png);
+}
+
+.block.has-image figure.bordered img {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+    border: 5px solid #e5e5e5;
+}
+
+.block.has-image figure.bordered {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.block.has-image .text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+@media (max-width: 479px){
+    .navbar .container{
+        min-height: 46px;
+    }
+    .navbar a.brand{
+        padding: 14px 23px;
+        background-position: 23px 14px;
+    }
+    .share{
+        padding-top: 13px;
+    }
+        .share a{
+            min-height: 20px;
+            min-width: 20px;
+        }
+            .share .has-text a{
+                font-size: 8px;
+                line-height: 1.13;
+                padding: 2px 13px 0 26px !important;
+            }
+                .share .has-text a strong{
+                    font-size: 11px;
+                }
+                .share .has-text a:before{
+                    top: 6px;
+                    left: 8px;
+                }
+            .share a:before{
+                width: 13px;
+                height: 13px;
+                top: 4px;
+                left: 4px;
+                background-size: 102px 12px;
+            }
+			
+			
+/*          
+KEEPING THIS HERE FOR REFERENCE
+				
+Not sure why these styles suddenly started causing problems
+Will investigate later
+
+
+		  		.share .tumblr a:before{
+                    background-position: 0 0;
+                    left: 3px;
+                }
+                .share .email a:before{
+                    background-position: -15px 0;
+                }
+                .share .rss a:before{
+                    background-position: -30px 0;
+                }
+                .share .google-plus a:before{
+                    background-position: -45px 0;
+                }
+                .share .twitter a:before{
+                    background-position: -60px 0;
+                }
+                .share .reddit a:before{
+                    background-position: -75px 0;
+                    left: 3px;
+                }
+                .share .facebook a:before{
+                    background-position: -90px 0;
+                }
+*/
+}
+
+.block{
+    padding: 45px 0;
+    border-bottom: 2px dotted #CCC;
+    -moz-box-shadow:
+    	0px 2px 0px rgba(255,255,255,1);
+    -webkit-box-shadow:
+    	0px 2px 0px rgba(255,255,255,1);
+    box-shadow:
+    	0px 2px 0px rgba(255,255,255,1);
+}
+    .block.intro,
+    .block:last-child{
+        border-bottom: 0;
+        padding-bottom: 30px;
+    }
+    .block h1{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.12;
+    }
+    .block h2{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.19;
+    }
+    .block h3{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.23;
+    }
+    .block.has-image figure{
+        width: 35%;
+        float: left;
+        margin: 0;
+        margin-top: 17px;
+    }
+        .block.has-image figure img{
+            max-width: 100%;
+        }
+            .block.has-image figure.bordered img{
+                -webkit-border-radius: 8px;
+                border-radius: 8px;
+                -webkit-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.4);
+                -moz-box-shadow:    0px 0px 14px rgba(50, 50, 50, 0.4);
+                box-shadow:         0px 0px 14px rgba(50, 50, 50, 0.4);
+                border: 5px solid #e5e5e5;
+            }
+        .block.has-image figure.bordered{
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        border: none;
+        }
+    .block.has-image .text{
+        float: right;
+        width: 60%;
+    }
+    .block.has-image .text p{
+       font-family: 'Ubuntu', sans-serif;
+       font-weight: lighter;
+       font-size: 15px;
+       line-height: 24px;
+    }
+
+    footer.block{
+        padding: 30px 0;
+    }
+        footer.block p{
+            font-size: 13px;
+            line-height: 1.47;
+            color: #888;
+            margin: 0;
+        }
+        footer.block a{
+            color: #555;
+        }
+
+
+.legislators{}
+    .legislators ul,
+    .legislators li{
+        margin: 0;
+        padding: 0;
+        list-style: none inside none;
+    }
+    .legislators li{
+        padding: 5px 20px 5px 86px;
+        position: relative;
+        min-height: 83px;
+        margin: 15px 5% 15px 0;
+        float: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 45%;
+    }
+        .legislators li:nth-child(odd){
+            clear: left;
+        }
+    .legislators img{
+        width: 66px;
+        height: 83px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .legislators h2{
+        margin: 0 0 8px 0 !important;
+    }
+
+    @media all and (max-width: 639px){
+        .legislators li{
+            float: none;
+            width: 100%;
+            padding-top: 10px;
+        }
+    }
+
+
+.modal{
+    padding: 0 !important;
+}
+    .modal .share{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .modal-body{
+        padding: 25px 30px;
+    }
+    .modal .text{
+        margin-bottom: 24px;
+    }
+    
+    .don{
+    	display: none;
+    }
+
+.actions{
+    border-top: 0;
+    background: #333 url({{ STATIC_URL }}campaign/img/class.jpg);
+=======
+.actions {
+    background: #333 url(../../img/class.jpg);
+>>>>>>> bf55b9fa2b06ab71b54d39520ba5474552a35e1e
+    background-position: center;
+    padding: 40px 0;
+}
+
+.actions .container {
+    border-top: 8px solid #e27319;
+    border-bottom: 10px solid #383838;
+    background: none;
+    box-shadow: none;
+    background-color: #000;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #99000000, endColorstr = #99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    opacity: 1;
+}
+
+.action h1 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.action p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.action#salsa-email form {
+    padding-left: 6%;
+}
+
+@media (max-width: 1100px) {
+    .action#salsa-email form {
+        padding-left: 3%;
+    }
+}
+
+.intro h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 23px;
+    width: 80%;
+    margin-left: 10%;
+}
+<<<<<<< HEAD
+    .intro h2.small{
+        font-size: 20px;
+        line-height: 1.15;
+    }
+
+.intro .block{
+    border-top: 0;
+    padding: 20px 0 45px;
+}
+    .intro .block h1{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.12;
+        text-align: left;
+        padding: 0;
+    }
+
+p.disclaimer{
+    font-size: 12px;
+    line-height: 1.25;
+}
+    p.disclaimer a{
+        color: #4a4a4a;
+        font-weight: bold;
+    }
+        p.disclaimer a:hover{
+            color: #222;
+        }
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input{
+	background: -moz-linear-gradient(
+			top,
+			#f0f0f0 0%,
+			#ffffff);
+		background: -webkit-gradient(
+			linear, left top, left bottom, 
+			from(#f0f0f0),
+			to(#ffffff));
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		border: 1px solid #949494;
+		-moz-box-shadow:
+			0px 2px 3px rgba(255,255,255,0),
+			inset 0px 1px 5px rgba(173,173,173,1);
+		-webkit-box-shadow:
+			0px 2px 3px rgba(255,255,255,0),
+			inset 0px 1px 5px rgba(173,173,173,1);
+		box-shadow:
+			0px 2px 3px rgba(255,255,255,0),
+			inset 0px 1px 5px rgba(173,173,173,1);
+    font-size: 17px;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    text-shadow:
+    		0px -1px 0px rgba(000,000,000,0.1),
+    		0px 1px 0px rgba(255,255,255,1);
+}
+
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(0, 0, 0, .25);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(0, 0, 0, .25);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(0, 0, 0, .25);
+}
+
+
+@media (max-width: 979px){
+    .block h1{
+        font-size: 20px;
+    }
+    .intro h1{
+        font-size: 32px;
+    }
+    .action h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .action h2{
+        font-size: 17px;
+        line-height: 1.30;
+        font-weight: 600;
+    }
+    .intro .block h1{
+        font-size: 20px;
+    }
+    .intro h2{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 639px){
+    .block{
+        padding: 20px 0;
+    }
+    .block h1{
+        font-size: 18px;
+        padding: 0;
+    }
+    .intro h1{
+        font-size: 24px;
+    }
+    .action h1{
+        font-size: 18px;
+    }
+    .action h2{
+        font-size: 16px;
+        line-height: 1.19;
+        font-weight: 400;
+    }
+    .intro{
+        padding-top: 0;
+    }
+    .intro .block{
+        padding: 20px 0;
+    }
+    .intro .block h1{
+        font-size: 18px;
+    }
+    .intro h2{
+        font-size: 20px;
+    }
+    .block.has-image figure {
+        max-width: 200px;
+        float: none;
+        margin: 0 auto;
+        max-height: 270px;
+        width: 100%;
+        
+    }
+        .block.has-image figure.video{
+            max-width: 640px;
+        }
+    .block.has-image .text {
+        float: none;
+        width: auto;
+        margin-top: 40px;
+    }
+        .block.has-image .text > :last-child{
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    .action .field{
+        display: block;
+        margin-bottom: 12px !important;
+    }
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"],
+    .uneditable-input{
+        max-width: 350px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){ 
+    .navbar a.brand{
+        background-size: 129px 75px;
+        background-position: 23px -40px;
+    }
+    .actions{
+        background-size: 28px 28px;
+        background-image: url({{ STATIC_URL }}campaign/img/hash@2x.png);
+    }
+}
+
+figure.image{
+    margin: 20px auto;
+}
+    figure.image .thumb{
+        display: none;
+    }
+
+
+/*	@stickwithjosh from Trello*/
+
+.disclaimer {font-size:12px; text-align: center;}
+
+button {white-space: nowrap; height:45px; font-size: 20px;}
+
+a {color: #378f3a; text-decoration: underline;}
+
+a:hover {color: #72bc75;}
+
+.text h2 {text-align: left;}
+
+a.btn {text-decoration: none; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,.2);}
+
+.action .modal h1 {color: #000;font-weight: bold; padding-bottom: 10px; border-bottom: 1px solid #d8d7d7; margin-bottom: 10px;}
+
+.action .modal p {
+    color: #000;
+    font-size: 14px;
+}
+
+#salsa-email .btn {
+    padding-left: 55px;
+    padding-right: 55px;
+}
